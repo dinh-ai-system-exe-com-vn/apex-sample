@@ -32,6 +32,8 @@ Công ty hiện đang vận hành các quy trình mua hàng (nhập nguyên li�
 
 5. **Hệ thống phân quyền:**
    - Đảm bảo bảo mật từng vai trò/phòng ban (Purchasing/Sales/Kho/Kế toán).
+6. **Hỗ trợ đa ngôn ngữ:**
+   - Ứng dụng cần cung cấp giao diện tiếng Anh, tiếng Việt và tiếng Nhật.
 
 --- 
 
