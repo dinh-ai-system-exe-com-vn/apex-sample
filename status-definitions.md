@@ -1,7 +1,5 @@
 # Quy ước Status
 
-Tài liệu liệt kê các giá trị trạng thái (STATUS) sử dụng trong hệ thống. Mọi module khi lưu trữ trạng thái cần tuân theo các giá trị dưới đây để thống nhất và dễ đa ngôn ngữ.
-
 ## 1. USERS
 | Giá trị | Ý nghĩa |
 |--------|---------|
@@ -62,11 +60,3 @@ Tài liệu liệt kê các giá trị trạng thái (STATUS) sử dụng trong 
 | `PARTIALLY_RECEIVED` | Đã nhận một phần |
 | `CANCELLED` | Huỷ |
 
-## 8. Các cột dạng `IS_*`
-Những cột có tiền tố `IS_` (ví dụ: `IS_ACTIVE`, `IS_ALLOWED`) được xem là kiểu
-boolean. Tuỳ cấu hình, chúng lưu `TRUE/FALSE` hoặc `1/0`; vì vậy không cần liệt
-kê `Y` hay `N`.
-
----
-
-Áp dụng thống nhất các giá trị trên giúp việc kiểm soát nghiệp vụ, dịch thuật và báo cáo được chuẩn hoá trong toàn hệ thống.
