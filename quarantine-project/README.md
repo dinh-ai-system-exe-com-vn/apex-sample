@@ -32,26 +32,17 @@ Thiết kế và lập trình một hệ thống kiểm dịch mô phỏng (mini
 - Role 'Admin' được phép đổi trạng thái; các Dev khác test ở vai trò nhân viên.
 - Mỗi Dev phụ trách tối thiểu một module.
 
-## 4. Gợi ý phân chia module cho 7 Dev
-1. **Dev 1:** Quản lý trạng thái hệ thống.
-2. **Dev 2:** Quản lý thông tin nhập cảnh.
-3. **Dev 3:** Khai báo y tế.
-4. **Dev 4:** Quản lý xét nghiệm.
-5. **Dev 5:** Báo cáo dịch.
-6. **Dev 6:** Báo cáo định kỳ.
-7. **Dev 7:** Giao diện điều hướng động.
-
-## 5. Luồng nghiệp vụ & mối quan hệ các chức năng
+## 4. Luồng nghiệp vụ & mối quan hệ các chức năng
 - Trang quản trị cho phép đổi trạng thái và cập nhật toàn hệ thống.
 - Các module nghiệp vụ nhận trạng thái và tự điều chỉnh UI/logic.
 - Nhật ký lưu mọi lần đổi trạng thái.
 
-## 6. Demo kỳ vọng
+## 5. Demo kỳ vọng
 - 1 trang dashboard hiển thị trạng thái hiện tại, có thể test chuyển đổi real-time.
 - Mỗi module có tối thiểu 1 CRUD form động.
 - Tối ưu UI/UX theo theme chuẩn của APEX.
 
-## 7. Yêu cầu bổ sung
+## 6. Yêu cầu bổ sung
 - Không mô phỏng nghiệp vụ ngoài lề; chỉ tập trung chuyển đổi trạng thái và thay đổi UI/flow.
 - Có thể dùng dữ liệu mẫu để test.
 - Mỗi Dev demo module của mình độc lập nhưng trong một ứng dụng thống nhất.
