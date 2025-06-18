@@ -174,3 +174,19 @@ flowchart TD
     D1 --> E1(Lập hóa đơn bán)
     E1 --> F1(Thu tiền khách hàng)
 ```
+
+## Quy tắc lập trình giao diện
+
+Dự án này sử dụng **Tailwind CSS** kết hợp **Flowbite** để xây dựng giao diện.
+
+### Hướng dẫn sử dụng nhanh
+- Thêm Tailwind bằng phương thức Play CDN: <https://tailwindcss.com/docs/installation/play-cdn>
+- Cài đặt Flowbite thông qua CDN: <https://flowbite.com/docs/getting-started/introduction/>
+- Tận dụng các lớp tiện ích của Tailwind cho bố cục và kiểu dáng cơ bản.
+- Sử dụng các thành phần Flowbite cho các yếu tố tương tác như thanh điều hướng, modal, nút bấm.
+- Hạn chế viết CSS tuỳ chỉnh trừ khi thật cần thiết.
+
+### Quy trình trang tạo/cập nhật thanh toán
+1. **Nhập form** – người dùng điền dữ liệu.
+2. **Xác nhận** – hiển thị màn hình xác nhận nội dung đã nhập.
+3. **Lưu** – sau khi xác nhận, lưu dữ liệu vào cơ sở dữ liệu.
