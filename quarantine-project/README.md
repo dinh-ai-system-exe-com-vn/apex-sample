@@ -40,7 +40,6 @@ Thiết kế và lập trình một hệ thống kiểm dịch mô phỏng (mini
 ## 5. Demo kỳ vọng
 - 1 trang dashboard hiển thị trạng thái hiện tại, có thể test chuyển đổi real-time.
 - Mỗi module có tối thiểu 1 CRUD form động.
-- Tối ưu UI/UX theo theme chuẩn của APEX.
 
 ## 6. Yêu cầu bổ sung
 - Không mô phỏng nghiệp vụ ngoài lề; chỉ tập trung chuyển đổi trạng thái và thay đổi UI/flow.
@@ -58,7 +57,7 @@ Dự án này sử dụng **Tailwind CSS** kết hợp **Flowbite** để xây d
 - Sử dụng các thành phần Flowbite cho các yếu tố tương tác như thanh điều hướng, modal, nút bấm.
 - Hạn chế viết CSS tuỳ chỉnh trừ khi thật cần thiết.
 
-### Quy trình trang tạo/cập nhật thanh toán
+### Quy trình trang tạo/cập nhật
 1. **Nhập form** – người dùng điền dữ liệu.
 2. **Xác nhận** – hiển thị màn hình xác nhận nội dung đã nhập.
 3. **Lưu** – sau khi xác nhận, lưu dữ liệu vào cơ sở dữ liệu.
